@@ -1,17 +1,17 @@
-# Car Image Segmentation
+# Jaguar Image Segmentation
 
-Semantic segmentation model to isolate cars from background images using PyTorch.
+Semantic segmentation model to isolate jaguars from background images using PyTorch.
 
-## 🚗 Example Output
+## 🐆 Example Output
 
 | Input | Segmentation Mask | Output |
 |------|------------------|--------|
-| ![input](docs/examples/car.jpg) | ![mask](docs/examples/mask.png) | ![output](docs/examples/output.png) |
+| ![input](docs/examples/jaguar.jpg) | ![mask](docs/examples/mask.png) | ![output](docs/examples/output.png) |
 
 > *(Replace these images with real examples from your project)*
 
 ## ✨ Features
-- Binary car/background segmentation
+- Binary jaguar/background segmentation
 - PyTorch training pipeline (CUDA + Apple M-series support)
 - FiftyOne dataset explorer for data visualization & curation
 - Efficient Parquet-based dataset workflow
@@ -22,7 +22,7 @@ Semantic segmentation model to isolate cars from background images using PyTorch
 ```bash
 # Clone repo
 git clone <repo-url>
-cd car-segmentation   # or your repo folder name
+cd jaguar-segmentation   # or your repo folder name
 
 # Create environment
 uv venv --python 3.11
